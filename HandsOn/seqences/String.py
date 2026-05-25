@@ -1,0 +1,5 @@
+Str = input("Enter the String: ")
+print(len(Str))
+print(Str*2)
+print(Str[0])
+print(Str[0:4])
