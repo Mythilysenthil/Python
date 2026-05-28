@@ -1,0 +1,10 @@
+print("Learning to move the file object")
+file = open("myfile.txt", "r+")
+text = file.read()
+print(text)
+
+print("Initially, the pos of the obj")
+print("Current position: ", file.tell())
+print("Pos changed: ",file.seek(0))
+print("10 step moved: ",file.seek(10))
+file.close()
